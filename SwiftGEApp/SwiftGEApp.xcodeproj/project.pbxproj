@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F60718293A4B67 /* SwiftGEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */; };
+		A1B2C3D4E5F60718293A4B68 /* SwiftGE in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60718293A4B70 /* SwiftGE */; };
+		A1B2C3D4E5F60718293A4B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */; };
+		A1B2C3D4E5F60718293A4B77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ContentView.swift */; };
+		A1B2C3D4E5F60718293A4B79 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* MetalView.swift */; };
+		A1B2C3D4E5F60718293A4B80 /* SwiftGEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */; };
+		A1B2C3D4E5F60718293A4B81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ContentView.swift */; };
+		A1B2C3D4E5F60718293A4B82 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* MetalView.swift */; };
+		A1B2C3D4E5F60718293A4B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */; };
+		A1B2C3D4E5F60718293A4B84 /* SwiftGE in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60718293A4B70 /* SwiftGE */; };
+		A1B2C3D4E5F60718293A4B85 /* SwiftGEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */; };
+		A1B2C3D4E5F60718293A4B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ContentView.swift */; };
+		A1B2C3D4E5F60718293A4B87 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* MetalView.swift */; };
+		A1B2C3D4E5F60718293A4B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */; };
+		A1B2C3D4E5F60718293A4B89 /* SwiftGE in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60718293A4B70 /* SwiftGE */; };
+		A1B2C3D4E5F60718293A4B8A /* SwiftGEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */; };
+		A1B2C3D4E5F60718293A4B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ContentView.swift */; };
+		A1B2C3D4E5F60718293A4B8C /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* MetalView.swift */; };
+		A1B2C3D4E5F60718293A4B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */; };
+		A1B2C3D4E5F60718293A4B8E /* SwiftGE in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60718293A4B70 /* SwiftGE */; };
+		A1B2C3D4E5F60718293BAA0 /* SwiftGEAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */; };
+		A1B2C3D4E5F60718293BAA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B76 /* ContentView.swift */; };
+		A1B2C3D4E5F60718293BAA2 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B78 /* MetalView.swift */; };
+		A1B2C3D4E5F60718293BAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */; };
+		A1B2C3D4E5F60718293BAA4 /* SwiftGE in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D4E5F60718293A4B70 /* SwiftGE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGEAppApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B66 /* SwiftGEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B78 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B7A /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B7B /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B7C /* Info-visionOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-visionOS.plist"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B7D /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B9C /* SwiftGEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B9D /* SwiftGEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B9E /* SwiftGEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B9F /* SwiftGEApp-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftGEApp-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F60718293A4B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B68 /* SwiftGE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B84 /* SwiftGE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B89 /* SwiftGE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B8E /* SwiftGE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293BAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293BAA4 /* SwiftGE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F60718293A4B5D = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B5E /* SwiftGEApp */,
+				A1B2C3D4E5F60718293A4B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B5E /* SwiftGEApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B64 /* SwiftGEAppApp.swift */,
+				A1B2C3D4E5F60718293A4B76 /* ContentView.swift */,
+				A1B2C3D4E5F60718293A4B78 /* MetalView.swift */,
+				A1B2C3D4E5F60718293A4B65 /* Info.plist */,
+				A1B2C3D4E5F60718293A4B7A /* Info-macOS.plist */,
+				A1B2C3D4E5F60718293A4B7B /* Info-tvOS.plist */,
+				A1B2C3D4E5F60718293A4B7C /* Info-visionOS.plist */,
+				A1B2C3D4E5F60718293A4B7D /* Info-watchOS.plist */,
+				A1B2C3D4E5F60718293A4B74 /* Assets.xcassets */,
+			);
+			path = SwiftGEApp;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F60718293A4B66 /* SwiftGEApp.app */,
+				A1B2C3D4E5F60718293A4B9C /* SwiftGEApp.app */,
+				A1B2C3D4E5F60718293A4B9D /* SwiftGEApp.app */,
+				A1B2C3D4E5F60718293A4B9E /* SwiftGEApp.app */,
+				A1B2C3D4E5F60718293A4B9F /* SwiftGEApp-watchOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F60718293A4B63 /* SwiftGEApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F60718293A4B69 /* Build configuration list for PBXNativeTarget "SwiftGEApp" */;
+			buildPhases = (
+				A1B2C3D4E5F60718293A4B60 /* Sources */,
+				A1B2C3D4E5F60718293A4B61 /* Resources */,
+				A1B2C3D4E5F60718293A4B62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGEApp;
+			packageProductDependencies = (
+				A1B2C3D4E5F60718293A4B70 /* SwiftGE */,
+			);
+			productName = SwiftGEApp;
+			productReference = A1B2C3D4E5F60718293A4B66 /* SwiftGEApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F60718293A4B99 /* SwiftGEApp-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C4DD52EF655ED00FB67EC /* Build configuration list */;
+			buildPhases = (
+				A1B2C3D4E5F60718293A4B93 /* Sources */,
+				A1B2C3D4E5F60718293A4B96 /* Resources */,
+				A1B2C3D4E5F60718293A4B90 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGEApp-macOS";
+			packageProductDependencies = (
+				A1B2C3D4E5F60718293A4B70 /* SwiftGE */,
+			);
+			productName = SwiftGEApp;
+			productReference = A1B2C3D4E5F60718293A4B9C /* SwiftGEApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F60718293A4B9A /* SwiftGEApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C4DD62EF655ED00FB67EC /* Build configuration list */;
+			buildPhases = (
+				A1B2C3D4E5F60718293A4B94 /* Sources */,
+				A1B2C3D4E5F60718293A4B97 /* Resources */,
+				A1B2C3D4E5F60718293A4B91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGEApp-tvOS";
+			packageProductDependencies = (
+				A1B2C3D4E5F60718293A4B70 /* SwiftGE */,
+			);
+			productName = SwiftGEApp;
+			productReference = A1B2C3D4E5F60718293A4B9D /* SwiftGEApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F60718293A4B9B /* SwiftGEApp-visionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C4DD72EF655ED00FB67EC /* Build configuration list */;
+			buildPhases = (
+				A1B2C3D4E5F60718293A4B95 /* Sources */,
+				A1B2C3D4E5F60718293A4B98 /* Resources */,
+				A1B2C3D4E5F60718293A4B92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGEApp-visionOS";
+			packageProductDependencies = (
+				A1B2C3D4E5F60718293A4B70 /* SwiftGE */,
+			);
+			productName = SwiftGEApp;
+			productReference = A1B2C3D4E5F60718293A4B9E /* SwiftGEApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F60718293BAC0 /* SwiftGEApp-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F60718293BAC7 /* Build configuration list for PBXNativeTarget "SwiftGEApp-watchOS" */;
+			buildPhases = (
+				A1B2C3D4E5F60718293BAB2 /* Sources */,
+				A1B2C3D4E5F60718293BAB1 /* Resources */,
+				A1B2C3D4E5F60718293BAB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGEApp-watchOS";
+			packageProductDependencies = (
+				A1B2C3D4E5F60718293A4B70 /* SwiftGE */,
+			);
+			productName = SwiftGEApp;
+			productReference = A1B2C3D4E5F60718293A4B9F /* SwiftGEApp-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F60718293A4B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A1B2C3D4E5F60718293A4B63 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A1B2C3D4E5F60718293A4B99 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A1B2C3D4E5F60718293A4B9A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A1B2C3D4E5F60718293A4B9B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A1B2C3D4E5F60718293BAC0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F60718293A4B6C /* Build configuration list for PBXProject "SwiftGEApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F60718293A4B5D;
+			packageReferences = (
+				A1B2C3D4E5F60718293A4B6F /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = A1B2C3D4E5F60718293A4B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F60718293A4B63 /* SwiftGEApp */,
+				A1B2C3D4E5F60718293A4B99 /* SwiftGEApp-macOS */,
+				A1B2C3D4E5F60718293A4B9A /* SwiftGEApp-tvOS */,
+				A1B2C3D4E5F60718293A4B9B /* SwiftGEApp-visionOS */,
+				A1B2C3D4E5F60718293BAC0 /* SwiftGEApp-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F60718293A4B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293BAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293BAA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F60718293A4B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B67 /* SwiftGEAppApp.swift in Sources */,
+				A1B2C3D4E5F60718293A4B77 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B79 /* MetalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B80 /* SwiftGEAppApp.swift in Sources */,
+				A1B2C3D4E5F60718293A4B81 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B82 /* MetalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B85 /* SwiftGEAppApp.swift in Sources */,
+				A1B2C3D4E5F60718293A4B86 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B87 /* MetalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293A4B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293A4B8A /* SwiftGEAppApp.swift in Sources */,
+				A1B2C3D4E5F60718293A4B8B /* ContentView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B8C /* MetalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F60718293BAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F60718293BAA0 /* SwiftGEAppApp.swift in Sources */,
+				A1B2C3D4E5F60718293BAA1 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F60718293BAA2 /* MetalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F60718293A4B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F60718293A4B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F60718293A4B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				ENABLE_TESTABILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F60718293A4B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F60718293BAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-watchOS";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "SwiftGEApp/Info-watchOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftGEApp.watch;
+				PRODUCT_NAME = SwiftGEApp;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F60718293BAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-watchOS";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "SwiftGEApp/Info-watchOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftGEApp.watch;
+				PRODUCT_NAME = SwiftGEApp;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A34C4DCF2EF654E800FB67EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-macOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = SwiftGEApp/Info-macOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		A34C4DD02EF654E800FB67EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-macOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info-macOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		A34C4DD12EF654E800FB67EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-tvOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = SwiftGEApp/Info-tvOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		A34C4DD22EF654E800FB67EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-tvOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info-tvOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PRODUCT_NAME = SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+		A34C4DD32EF654E800FB67EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-visionOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info-visionOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftGEApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		A34C4DD42EF654E800FB67EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-visionOS";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H488NS3JP9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftGEApp/Info-visionOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftGEApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.alpay.SwiftGEApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F60718293A4B69 /* Build configuration list for PBXNativeTarget "SwiftGEApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F60718293A4B6A /* Debug */,
+				A1B2C3D4E5F60718293A4B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1B2C3D4E5F60718293A4B6C /* Build configuration list for PBXProject "SwiftGEApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F60718293A4B6D /* Debug */,
+				A1B2C3D4E5F60718293A4B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1B2C3D4E5F60718293BAC7 /* Build configuration list for PBXNativeTarget "SwiftGEApp-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F60718293BAC1 /* Debug */,
+				A1B2C3D4E5F60718293BAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A34C4DD52EF655ED00FB67EC /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C4DCF2EF654E800FB67EC /* Debug */,
+				A34C4DD02EF654E800FB67EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A34C4DD62EF655ED00FB67EC /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C4DD12EF654E800FB67EC /* Debug */,
+				A34C4DD22EF654E800FB67EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A34C4DD72EF655ED00FB67EC /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C4DD32EF654E800FB67EC /* Debug */,
+				A34C4DD42EF654E800FB67EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A1B2C3D4E5F60718293A4B6F /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B2C3D4E5F60718293A4B70 /* SwiftGE */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B2C3D4E5F60718293A4B6F /* XCLocalSwiftPackageReference ".." */;
+			productName = SwiftGE;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1B2C3D4E5F60718293A4B5C /* Project object */;
+}
